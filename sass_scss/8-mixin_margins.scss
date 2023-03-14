@@ -1,0 +1,14 @@
+/* mixin task */
+
+@mixin marginL-R($property) {
+    margin-left: $property;
+    margin-right: $property;
+}
+
+body {
+    @include marginL-R(10px)
+}
+
+div {
+    @include marginL-R(15px)
+}
